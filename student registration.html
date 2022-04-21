@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>Form</title>
+</head>
+<center>
+<body>
+    <h1>Student Registartion</h1>
+    Reg No:<input type ="number"><br>
+    Name:<input type ="text"><br>
+    Father Name:<input type ="text"><br>
+    Gender: Male<input type="radio" name="gen"> Female<input type="radio" name="gen"><br>
+    DOB:<input type="date" id="birthday" name="birthday"><br>
+
+    Languages Knows:
+    <input type="checkbox" name="Languages" id="lang1" value="C" onclick="return ValidateSelection();"><br>
+        <label for="lang1">C</label>
+        <input form="myForm" type="checkbox" name="Languages" id="lang2"  value="C++" onclick="return ValidateSelection();"> 
+        <label for="lang2">C++</label>
+        <input form="myForm" type="checkbox" name="Languages" id="lang3"  value="Python" onclick="returnValidateSelection();"> 
+        <label for="lang3">Python</label><br>
+        <input type="checkbox" name="Languages" id="lang4" value="Java" onclick="returnValidateSelection();"> 
+        <label for="lang4">Java</label>
+         <input type="checkbox" name="Languages" id="lang5" value="R" onclick="returnValidateSelection();"> 
+        <label for="lang5">R</label>
+         <input type="checkbox" name="Languages" id="lang6" value="Julia" disabled> 
+        <label for="lang6">Julia</label><br>
+    Branch:<select>
+    	<option>ECE</option>
+    	<option>AI&DS</option>
+    	<option>CIVIL</option>
+    	<option>CSE</option>
+    	<option>EEE</option>
+    </select><br>
+    Address:<br><textarea rows="20" cols="30"></textarea><br>
+    	<input type="submit">
+</center>
+</table>
+</body>
+</form>
+</html>
