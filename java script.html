@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE> Java Script Colors Example 
+</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+document.fgColor="green";
+document.write("<H1>This is Green Text<\/H1>");
+function blueText() {
+document.write("<BODY TEXT='blue'>");
+document.write("<SCRIPT>");
+document.write(document.fgColor='blue');
+document.write("<\/SCRIPT>");
+document.write("<H1>");
+document.write("Now I'm Blue.");
+document.write("<\/H1>");
+document.close();
+}
+function redText() {
+document.write("<BODY TEXT='red'>");
+document.write("<H1>");
+document.write("Now I'm Red.");
+document.write("<\/H1>");
+document.write("<\/BODY>");
+document.close();
+}
+//END HIDING-->
+</SCRIPT>
+</HEAD>
+<BODY>
+<FORM>
+<INPUT TYPE='button' VALUE='Blue 
+It Now' onClick='blueText();'>
+<INPUT TYPE='button' VALUE='Red 
+It Now' onClick='redText();'>
+</FORM> </BODY> </HTML
